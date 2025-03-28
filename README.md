@@ -14,7 +14,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/theme-switcher-app.git
+git clone https://github.com/risrajawat/themeSwitcher.git
 cd themeSwitcher
 ```
 
