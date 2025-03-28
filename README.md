@@ -1,12 +1,55 @@
-# React + Vite
+# 🌗 Theme Switcher App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to toggle between Light and Dark themes.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌞 Light & Dark theme toggle
+- 🎨 Smooth transition between themes
+- ⚡ Built with React & Context API
 
-## Expanding the ESLint configuration
+## 🚀 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to set up and run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/theme-switcher-app.git
+cd themeSwitcher
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the App
+```bash
+npm run dev
+```
+
+## 🛠 Technologies Used
+
+- React.js
+- Context API
+- CSS
+
+## 📂 Project Structure
+```
+/theme-switcher-app
+│── src
+│   │── components
+│   │   ├── ThemeSwitch.jsx
+│   │── context
+│   │   ├── ThemeContext.jsx
+│   │── App.jsx
+│
+│── public
+│── package.json
+│── README.md
+```
+
+## 🏗 How It Works
+1. `ThemeContext.jsx` manages the theme state and provides it to the entire app.
+2. `ThemeSwitch.jsx` consumes the context and allows users to toggle the theme.
+
